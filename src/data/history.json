@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Intern ",
+    "organisation": "Avenirya Solution",
+    "startDate": "Feb, 2024",
+    "endDate": "Aug, 2024",
+    "experiences": ["Worked on Backend API's", "Reduced load times by 50% of site"],
+    "imageSrc": "/photo/about/cursorIcon.png"
+  },
+  {
+    "role": "Frontend Intern",
+    "organisation": "Servostar",
+    "startDate": "May, 2023",
+    "endDate": "Aug, 2023",
+    "experiences": ["Worked on ReactJs,Tailwind CSS,JS", "Designed the control panel"],
+    "imageSrc": "/photo/about/cursorIcon.png"
+  },
+  {
+    "role": "FullStack Intern ",
+    "organisation": "UMP",
+    "startDate": "Sep, 2024",
+    "endDate": "October, 2024",
+    "experiences": [
+      "Worked on component library",
+      "Made Backend API's"
+    ],
+    "imageSrc": "/photo/about/cursorIcon.png"
+  }
+]

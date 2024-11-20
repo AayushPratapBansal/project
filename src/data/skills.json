@@ -1,0 +1,37 @@
+
+
+
+[
+  {
+    "title": "MongoDB",
+    "imageSrc": "/photo/skills/mongodb.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "/photo/skills/react.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "/photo/skills/node.png"
+  },
+  {
+    "title": "ExpressJs",
+    "imageSrc": "/photo/skills/graphql.png"
+  },
+  {
+    "title": "DSA",
+    "imageSrc": "/photo/skills/figma.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "/photo/skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "/photo/skills/css.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "/photo/skills/node.png"
+  }
+]

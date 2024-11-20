@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Chat Application",
+    "imageSrc": "/photo/projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node","MongoDb"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Blogging app",
+    "imageSrc": "/photo/projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["React", "Express", "Node", "MongoDb"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Sorting Visualizer",
+    "imageSrc": "/photo/projects/project.png",
+    "description": "This is a project made to learn the latest languages by building an app.",
+    "skills": ["CSS", "HTML", "Javascript"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

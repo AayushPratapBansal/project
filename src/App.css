@@ -1,0 +1,301 @@
+
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 65px;
+}
+
+
+.bar {
+  font-weight: 999; /* Makes the text bold */
+  transition: color 0.3s ease; /* Smooth transition for color change on hover */
+  color: #7f00da; /* Default text color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover and Active styles */
+.bar a:hover{
+  color: #9580f3;  
+  font-weight: bold;
+}
+.bar .active {
+  color: #dd09f9;  /* Change color on hover and when active */
+  font-weight: bold; /* Make text bold on hover and active */
+}
+
+
+ h1,h2,h3,h4,h5,h6{
+   margin: 0;
+   padding: 0;
+   line-height: 0;
+ }
+
+
+
+
+/************ Banner Css ************/
+
+@keyframes updown {
+  0% {
+      transform: translateY(-20px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-20px);
+  }
+}
+.txt-rotate > .wrap {
+border-right: 0.08em solid #666;
+}
+.img-updown {
+  animation: updown 4s infinite;
+}
+
+
+.banner {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('./assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;  
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  animation: updown 3s linear infinite;
+}
+
+
+
+
+
+
+
+.contact {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 60px 0; /* Removed bottom padding to prevent extra height */
+  height: 100vh;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  overflow: hidden; /* Prevent any overflow */
+}
+
+.contact img {
+  width: 92%;
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.contact h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.contact form input, .contact form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form input:focus, .contact form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+
+.contact form input::placeholder, .contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+
+.contact form button:hover {
+  color: #fff;
+}
+
+.contact form button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form button:hover::before {
+  width: 100%;
+}
+
+
+
+.about .tagline {
+  width: 300px;
+  height: 50px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 20px 50px;
+  background: linear-gradient(90.21deg, rgba(254, 208, 236, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  font-size: 30px;
+}
+
+
+
+
+
+
+/* 
+
+
+
+
+ .contact {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 60px 0 200px 0;
+}
+
+
+.contact img {
+  width: 92%;
+}  
+
+
+.contact h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 30px;
+}
+.contact form input, .contact form textarea {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: #fff;
+  margin: 0 0 8px 0;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  transition: 0.3s ease-in-out;
+}
+.contact form input:focus, .contact form textarea:focus {
+  background: rgba(255, 255, 255, 1);
+  color: #121212;
+}
+.contact form input::placeholder, .contact form textarea::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.contact form input:focus::placeholder, .contact form textarea:focus::placeholder {
+  color: #121212;
+  opacity: 0.8;
+}
+.contact form button {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.contact form button span {
+  z-index: 1;
+  position: relative;
+}
+.contact form button:hover {
+  color: #fff;
+}
+.contact form button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.contact form button:hover::before {
+  width: 100%;
+} */
